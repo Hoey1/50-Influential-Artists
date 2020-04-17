@@ -92,12 +92,34 @@ video {
 html {
   font-size: 62.5%;
 }
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPN-Co.ttf) format('truetype');
+}
 .nav-container {
   display: flex;
   margin: 0;
   padding: 4% 0;
   justify-content: center;
   width: 100%;
+  overflow: auto;
 }
 .nav-container .nav-links {
   display: flex;
@@ -105,7 +127,7 @@ html {
   width: 30%;
 }
 .nav-container .nav-links hr {
-  border: 1px solid slategray;
+  border: 1px solid gray;
   display: flex;
   justify-content: center;
   width: 1px;
@@ -121,8 +143,43 @@ html {
   font-weight: bold;
 }
 hr {
-  border-top: 3px solid slategray;
+  border-top: 3px solid gray;
   display: flex;
   justify-content: center;
   width: 80%;
+}
+.title-container {
+  width: 100vw;
+  height: 100vh;
+}
+.title-container h1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+.title-container .hero-image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.title-container .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.title-container .hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
 }
