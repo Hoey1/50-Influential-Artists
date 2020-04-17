@@ -1,3 +1,25 @@
 .font(@weight:400; @size:2.2rem; @font-family:"Poppins", sans-serif) {
   font: @arguments;
 }
+
+// Button para mixin
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+
+// Nav link hover mixin
+.link-hover-mixin() {
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+//Normal Button Styling Mixin
+
+.button-style() {
+  border-radius: 10px;
+  border: none;
+  display: flex;
+}
