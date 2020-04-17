@@ -49,14 +49,14 @@ Follow these steps to set up your project:
 
 - [✔️] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
 - [✔️] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-- [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
-- [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+- [✔️] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
+- [✔️] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a: Minimum Viable Product - PreProcessing
 
 #### Import LESS Files
 
-- [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+- [✔️] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
@@ -66,15 +66,14 @@ Follow these steps to set up your project:
 5.navigation.less
 6.main.less
 7.cta.less
-```
 
 _You will know everything is working properly when you see the styles enabled for the provided content._
 
 #### Home Page - Desktop HTML & LESS
 
-- [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-- [ ] Add a viewport meta tag to the head of your index.html page
-- [ ] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+- [✔️] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+- [✔️] Add a viewport meta tag to the head of your index.html page
+- [✔️][review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 - [ ] Navigation Styles: Use the `navigation.less` file for styling.
 - [ ] Main Content Styles: Use the `main.less` file for styling
 - [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
@@ -112,3 +111,4 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
+```
