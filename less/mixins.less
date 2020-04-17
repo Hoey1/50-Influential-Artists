@@ -36,6 +36,7 @@
   &:hover {
     background-color: @font-color;
     color: @bg-color;
+    opacity: 80%;
   }
 }
 
@@ -52,4 +53,11 @@
   &:hover {
     border: 1px solid red;
   }
+}
+
+.custom-layout(@direction:row, @justify:center, @align:center) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
 }

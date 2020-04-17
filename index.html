@@ -9,9 +9,13 @@
       rel="stylesheet"
       href="https://fonts.google.com/specimen/Raleway?selection.family=Raleway"
     />
+    <link rel="icon" 
+      type="image/png" 
+      href="https://learn.lambdaschool.com/favicon.ico"
+    />
   </head>
   <style>
-    A {
+    a {
       text-decoration: none;
     }
   </style>
@@ -40,13 +44,15 @@
     <hr />
 
     <section class="artists-container">
-      <div class="artist">
-        <img
-          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"
-        />
+      <div class="artist1">
+        <div class='artist1-image-container'>
+            <img
+                src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg"
+            /> -->
+        </div>
         <a href="https://en.wikipedia.org/wiki/Vincent_van_Gogh">
-          Vincent Van Gogh</a
-        >
+        </a>
+        <h2>Vincent van Gogh</h2>
         <div class="bio">
           Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen);
           30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter
@@ -59,15 +65,18 @@
           of modern art. However, he was not commercially successful, and his
           suicide at 37 followed years of mental illness and poverty.
         </div>
+        <button class='buy-1'>Buy This!</button>
       </div>
 
-      <div class="artist">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/600px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg"
-        />
+      <div class="artist2">
+        <div class='artist2-image-container'>
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg/600px-The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg"
+            />
+        </div>
         <a href="https://en.wikipedia.org/wiki/J._M._W._Turner">
-          Joseph Mallord William Turner</a
-        >
+        </a>
+        <h2>Joseph Mallord William Turner</h2>
         <div class="bio">
           Joseph Mallord William Turner (23 April 1775 – 19 December 1851),
           known as J. M. W. Turner and contemporarily as William Turner, was an
@@ -75,6 +84,9 @@
           for his expressive colourisations, imaginative landscapes and
           turbulent, often violent marine paintings.
         </div>
+        <btn-parent>
+            <button class='buy-2'>Buy This!</button>
+        </btn-parent>
       </div>
     </section>
     <script src="index.js"></script>

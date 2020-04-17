@@ -78,15 +78,11 @@ _You will know everything is working properly when you see the styles enabled fo
 - [✔️] Main Content Styles: Use the `main.less` file for styling
 - [✔️] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 - [✔️] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-- [ ] Use at least 2 parameters to create your button
+- [✔️] Use at least 2 parameters to create your button
 - [ ] Create a hover state that changes the opacity of images to 80%
-- [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
+- [✔️] Use good coding practices including adding responsive breakpoints to your code with media queries
 
-### Task 2b: Minimum Viable Product - JavaScript
-
-Navigate to `index.js` and complete the MVP challenges. Note that you need to scroll past data (or collapse data in VScode) to find the challenges.
-
-### Task 3: Stretch Problems
+: Stret 3ch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals, also listed in `index.js`, where applicable:
 

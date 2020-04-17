@@ -55,3 +55,84 @@ hr {
   justify-content: center;
   width: 90%;
 }
+
+.artists-container {
+  display: flex;
+  margin: 5%;
+  justify-content: space-between;
+  width: 100%;
+
+  .artist1 {
+    width: 45%;
+    justify-content: center;
+
+    .artist1-image-container {
+      width: 250px;
+      height: 250px;
+      margin-left: 10%;
+      .custom-layout(center, center);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      margin-left: 25%;
+    }
+
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      padding: 4% 0;
+    }
+
+    .bio {
+      //.font(1.5rem, raleway);
+      font-family: "Raleway", sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .buy-1 {
+      .custom-btn(#FE5F55, 200px,white);
+    }
+  } //this closes van gogh (artist 1)
+
+  .artist2 {
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+
+    .artist2-image-container {
+      width: 250px;
+      height: 250px;
+      margin-left: 10%;
+      .custom-layout(center, center);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      text-align: center;
+      padding: 4% 0;
+    }
+
+    .bio {
+      //.font(1.5rem, raleway);
+      font-family: "Raleway", sans-serif;
+      font-size: 1.5rem;
+    }
+
+    .btn-parent {
+      .custom-layout();
+
+      .buy-2 {
+        .custom-btn(#F08CAE, 200px,white);
+      }
+    } //this closes btn-parent
+  } // this closes JMWT (artist 2)
+} // this closes artists-container
