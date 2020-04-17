@@ -86,3 +86,29 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.nav-container {
+  display: flex;
+  margin: 0;
+  padding: 4% 0;
+  justify-content: center;
+}
+.nav-container .nav-links {
+  display: flex;
+  font-size: 2.2rem;
+}
+.nav-container .nav-links a {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  color: slategray;
+  padding: 1.25rem 0.5rem;
+}
+.nav-container .nav-links a:hover {
+  font-weight: bold;
+}
