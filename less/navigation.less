@@ -3,10 +3,19 @@
   margin: 0;
   padding: 4% 0;
   justify-content: center;
+  width: 100%;
 
   .nav-links {
     display: flex;
     font-size: 2.2rem;
+    width: 30%;
+
+    hr {
+      border: 1px solid slategray;
+      display: flex;
+      justify-content: center;
+      width: 1px;
+    } //This closes hr tag
 
     a {
       display: flex;
@@ -20,4 +29,11 @@
       } // This closes hover
     } // This closes a-tag
   } // This closes .nav-links
+}
+
+hr {
+  border-top: 3px solid slategray;
+  display: flex;
+  justify-content: center;
+  width: 80%;
 }
