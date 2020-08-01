@@ -1,0 +1,71 @@
+.font(@size, @fam) {
+  font-size: @size;
+  font-family: @fam; // Poppins or Raleway
+}
+
+// Nav link hover mixin
+.link-hover-mixin() {
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+// center mixin
+.custom-layout(@justify, @align) {
+  display: flex;
+  justify-content: @justify; // center
+  align-items: @align; // center
+}
+
+// Font Mixins
+
+.fontH1 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+//////////////////
+///  BUTTONS  ///
+//////////////////
+
+// button para-mixin base from class
+.custom-btn(@bg-color: @main-color, @size: 200px, @font-color: black) {
+  display: block;
+  background-color: @bg-color;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: @size;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: @font-color;
+
+  &:hover {
+    background-color: @font-color;
+    color: @bg-color;
+    opacity: 80%;
+  }
+}
+
+//Normal Button Styling Mixin
+
+.button-style() {
+  border-radius: 10px;
+  border: none;
+  display: flex;
+}
+
+// Button para mixin
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+
+.custom-layout(@direction:row, @justify:center, @align:center) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
